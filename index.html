@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/apple-touch-icon.png" >
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+</head>
+
+<body>
+    <div class="imagens">
+        <img src="img/celular.png" alt="Imagem visual do app em um celular" class="img-celular">
+        <img src="img/insta1.png" alt="imagem interna do instagram" class="img-insta">
+        <img src="img/insta2.png" alt="imagem interna do insta" class="img-insta img-2">>
+    </div>
+
+    <div class="caixa">
+        <img src="img/insta-logo.png" alt="Logo Instagram">
+        <input placeholder="Telefone, nome de usuário ou email" type="text">
+        <input placeholder="Senha" type="password">
+        <br>
+        <button>Entrar</button>
+        <br>
+        <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjsvLKd3YqAAxWz4FwKHTD4DUAYABAAGgJjZQ&sig=AOD64_1BUu3dVG8_SU7FXNZpmpMR4UJVTw&q&adurl&ved=2ahUKEwj7kq2d3YqAAxViqpUCHV6YD3sQ0Qx6BAgFEAE"
+            target="_blank" rel="external" class="facebook">Entrar com Facebook</a>
+        <a class="esqueceu-senha">Esqueceu a senha?</a>
+    </div>
+</body>
+    <script>
+        let imagem = document.querySelector(".img-2")
+        
+        setInterval( () => {
+            if(imagem.style.opacity == 0){
+                imagem.style.opacity = 1
+             } else {
+                imagem.style.opacity = 0
+            }
+
+
+        }, 2000);
+
+
+    </script>
+
+</html>
